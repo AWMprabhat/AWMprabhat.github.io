@@ -17,7 +17,7 @@ function Github() {
       />
       
     </Row>
-    <div >
+    <div style={{'display':'flex', 'justifyContent':'space-between'}}>
     <div>
       <img  src="https://github-readme-stats.vercel.app/api/top-langs?username=AWMprabhat&show_icons=true&locale=en&layout=compact&theme=flag-india" alt="AWMprabhat" />
       <img  src="https://github-readme-streak-stats.herokuapp.com/?user=AWMprabhat&theme=flag-india" alt="AWMprabhat" />

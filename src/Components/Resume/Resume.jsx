@@ -148,7 +148,7 @@ export const Resume = () => {
       <Gitbox>
       <Text  className="heading ">
               <span id="span" >
-              <p>Days i code.......</p>
+              <p>git stats 💻</p>
               </span>
             </Text>
         <Github />
