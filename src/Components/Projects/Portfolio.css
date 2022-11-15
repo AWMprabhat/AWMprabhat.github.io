@@ -1,0 +1,67 @@
+/** @format */
+
+.portfolio .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  grid-gap: 2rem;
+  grid-gap: 2rem;
+  gap: 4rem;
+  padding: 0 4rem;
+}
+
+.portfolio .box-container .box {
+  height: 45rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: var(--box-shadow);
+  position: relative;
+  border: 1rem solid transparent;
+   
+}
+
+.portfolio .box-container .box img {
+  height: 20rem;
+  width: 100%;
+  object-fit: cover;
+  ;
+}
+
+.portfolio .box-container .box .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20rem;
+  width: 100%;
+  background: var(--bg-color);
+  display: grid;
+  place-items: center;
+  transform: scale(0);
+}
+
+.portfolio .box-container .box:hover .content {
+  transform: scale(1);
+}
+
+.portfolio .box-container .box .content h3 {
+  font-size: 2.5rem;
+  color: var(--black);
+  text-transform: uppercase;
+  transform: translateY(-5rem);
+  opacity: 0;
+  transition-delay: 0.3s;
+}
+
+.portfolio .box-container .box:hover .content h3 {
+  transform: translateY(0rem);
+  opacity: 1;
+}
+
+.icons-git {
+  cursor: pointer !important;
+  height: 40px;
+  width: 40px;
+}
+
+.icons-git img {
+  color: green !important;
+}
