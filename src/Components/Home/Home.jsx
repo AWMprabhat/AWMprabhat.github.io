@@ -25,7 +25,7 @@ export const Home = () => {
               }}
             />
           </p>
-          <a className="btn" href="https://drive.google.com/file/d/1nZcHIPSBobplKs1Jr5VUX6fAcZQOatfc/view?usp=sharing" target="_blank"  >
+          <a className="btn" href="https://drive.google.com/file/d/1pq5EVATIFo9s1z8viJIF1kZtS9NapjDB/view" target="_blank"  >
             Download Resume
           </a>
         </div>

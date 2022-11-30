@@ -10,7 +10,7 @@ export const SideBar = () => {
     <>
       <Header show={show} className='header active'>
         <User className='user'>
-          <img src='/Images/prabhat.png' alt='' />
+          <img src='/Images/IMG-20221122-WA0046-removebg-preview (3).png' alt='' />
           <h3>Prabhat Bhardwaj </h3>
           <p>MERN Stack Developer</p>
         </User>
